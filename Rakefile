@@ -34,7 +34,7 @@ spec = Gem::Specification.new do |s|
   s.bindir       = "bin"
   s.executables  = %w( nanite-agent nanite-mapper nanite-admin )
 
-  s.add_dependency('amqp', '>= 0.6.0')
+  s.add_dependency('amqp', '< 0.7.0')
   s.add_dependency('json', '>= 1.1.7')
 
   s.require_path = 'lib'
